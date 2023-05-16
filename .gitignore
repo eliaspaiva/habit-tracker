@@ -1,0 +1,55 @@
+# Ignore node modules
+/node_modules
+
+# Ignore logs and debugging files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Ignore built and compiled files
+/dist
+/build
+/out
+/.next
+/.nuxt
+/.cache
+
+# Ignore environment variables file
+.env
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Ignore dependencies and package locks
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore test and coverage files
+/coverage
+
+# Ignore miscellaneous files
+*.log*
+*.csv
+*.dat
+*.out
+*.pid
+*.seed
+*.pid.lock
+*.log.*
+*.npm
+*.nyc_output
